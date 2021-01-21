@@ -17,7 +17,7 @@ def make_tiny(url):
 		return response.read().decode('utf-8')
 
 #hye Himanshu here
-
+#Sidharth here too
 def main():
 	for tinyurl in map(make_tiny, sys.argv[1:]):
 		print(tinyurl)
